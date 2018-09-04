@@ -473,12 +473,12 @@ FAN_ALGORITHM_CONFIG = {
 #Open Loop Profile# Amb_inlet =System ambient + Ambient sensor Offset
     'OPEN_LOOP_PARAM':
         [
-            '0.23',
-            '-12',
-            '190',
+            '0.2113',
+            '-11.009',
+            '179.4',
             '24',
             '44',
-            '32',
+            '36',
             '100',
             '43', # Warning upper
             '46', # Cirtical upper
@@ -490,9 +490,9 @@ FAN_ALGORITHM_CONFIG = {
 #Close Loop Profile#1: CPU thermal
     'CLOSE_LOOP_PARAM_1' :
         [
-            '0.16',
-            '-0.004',
-            '0.1',
+            '0.12',
+            '-0.0032',
+            '0.2',
             '80',
             '85',
             '90',
@@ -527,7 +527,7 @@ FAN_ALGORITHM_CONFIG = {
             '0.16',
             '-0.004',
             '0.1',
-            '62',
+            '60',
             '65',
             '71',
             '1000',
@@ -548,8 +548,8 @@ FAN_ALGORITHM_CONFIG = {
     'CLOSE_LOOP_PARAM_4' :
         [
             '0.16',
-            '-0.004',
-            '0.1',
+            '-0.006',
+            '0.5',
             '76',
             '82',
             '85',
